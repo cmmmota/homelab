@@ -7,6 +7,6 @@ metal:
   children:
     masters:
       hosts:
-        butler: {ansible_host: 192.168.0.249, mac: '9c:6b:00:02:1a:4f', disk: nvme01, network_interface: eth0}
+        butler: {ansible_host: 192.168.0.249, mac: '9c:6b:00:02:1a:4f', disk: nvme0n1, network_interface: eth0}
     workers:
       hosts:   
